@@ -1,0 +1,157 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 15px 15px 50px 15px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-around;
+  gap: 600px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  height: 75px;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #e5e7eb;
+  justify-content: center;
+}
+
+.header-body {
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+}
+
+.banner {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  font-style: extra-bold;
+  color: #f9faf8;
+}
+
+.members img {
+  height: 200px;
+  border-radius: 25px;
+  align-self: center;
+}
+
+.members {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  margin-bottom: 75px;
+  align-items: flex-start;
+}
+
+.info h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-top {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 50px 250px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+.action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin: 50px 100px;
+  border-radius: 10px;
+  padding: 18px;
+  gap: 290px;
+}
+
+.action-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-bottom {
+  background-color: #3882f6;
+  color: white;
+  border-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.action .action-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: -100px;
+}
+
+.person p {
+    width: 200px;
+}
+
+.hp {
+  margin-top: -25px;
+}
+
+.ah {
+  margin-bottom: -15px;
+}
